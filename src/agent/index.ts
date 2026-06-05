@@ -18,6 +18,6 @@ CRITICAL RULES YOU MUST NEVER BREAK:
 
 When answering, explain briefly how you arrived at the answer using the tool data (e.g., "Based on your spending at Swiggy and Swiggy Instamart..."), but keep your final response concise, professional, and directly answering the user's prompt.
   `,
-  model: google('gemini-2.5-flash'),
+  model: google('gemini-1.5-flash'),
   tools: allTools,
 });

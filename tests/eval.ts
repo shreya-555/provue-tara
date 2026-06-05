@@ -3,11 +3,11 @@ const ENDPOINT = 'http://localhost:3000/ask';
 // The 12 mandatory edge-case tests defined by the Provue grading rubric
 const EVAL_QUESTIONS = [
   // 1. Single Lookup & Date Filtering & Refunds
-  //"How much did I spend on food in March 2025 after refunds?",
+  "How much did I spend on food in March 2025 after refunds?",
   // 2. Merchant Aliases & Clustering
   "How much did I spend on Swiggy in total, including Instamart and Swiggy Order?",
   // 3. Category Comparison
-  //"Compare my food and travel spending. Which one is higher overall?",
+  "Compare my food and travel spending. Which one is higher overall?",
   // 4. Transfer Exclusion
   "Ignore transfers. What was my total actual spending in Q1 2025?",
   // 5. No-Data Honesty
@@ -25,7 +25,7 @@ const EVAL_QUESTIONS = [
   // 11. Missing Categories Handling
   "How much money did I spend that was marked as uncategorized?",
   // 12. Complex Joined Reasoning
-  //"Of the funds I own, which gave me the best realized return percentage?"
+  "Of the funds I own, which gave me the best realized return percentage?"
 ];
 
 async function runEvals() {
