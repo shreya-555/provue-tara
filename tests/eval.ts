@@ -1,4 +1,4 @@
-const ENDPOINT = 'http://localhost:3000/ask';
+const ENDPOINT = 'https://provue-tara.onrender.com/ask';
 
 // The 12 mandatory edge-case tests defined by the Provue grading rubric
 const EVAL_QUESTIONS = [
